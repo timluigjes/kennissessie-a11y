@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>A11Y page</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+        crossorigin="anonymous">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+        }
+
+        p {
+            font-size: 1rem;
+            line-height: 1.5;
+        }
+
+        a {
+            text-decoration: underline;
+            color: #e40000;
+        }
+
+        a:hover,
+        a:focus {
+            color: #008200;
+        }
+
+        a[target="_blank"]:after {
+            font-family: 'Font Awesome 5 Free';
+            content: "\f360";
+            font-weight: 900;
+            margin-left: 3px;
+        }
+
+        ul li {
+            list-style: none;
+            display: inline-block;
+            margin-left: 10px;
+        }
+
+        article {
+            display: flex;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <div>
+                <h1>Title of page</h1>
+                <p>Lorem ipsum dolor sit <a href="https://census.nl/" target="_blank">amet</a>, consectetur adipiscing
+                    elit. Nullam nunc magna, sodales a tortor id, tempor semper mi. Etiam at velit nunc. Phasellus quis
+                    massa mattis, tincidunt augue eu, aliquet justo. Mauris eu felis odio. Pellentesque augue ex,
+                    semper id
+                    risus vitae, sodales sodales nisl. Vestibulum egestas libero sed ipsum vestibulum, vel pretium quam
+                    vehicula. Integer tristique finibus ipsum aliquet sagittis. Proin commodo ac sapien ut malesuada.
+                    Donec
+                    vestibulum vitae lorem eget bibendum.</p>
+                <p>Ut non est augue. Fusce nec tempor massa, sit amet porta nibh. <a href="/2.html">Quisque</a> quis
+                    leo ut
+                    dolor condimentum ultrices nec a nunc. Cras vehicula diam ligula, non tristique risus sagittis eu.
+                    Praesent et dolor sit amet nisi pharetra posuere. Mauris et rutrum est. Praesent pellentesque leo
+                    in
+                    molestie tincidunt. Donec eleifend efficitur egestas. Sed congue mattis malesuada. Suspendisse nec
+                    libero id quam efficitur dignissim id sit amet justo. Mauris hendrerit facilisis purus, quis
+                    convallis
+                    sem vestibulum hendrerit. Nulla eu diam arcu.</p>
+            </div>
+            <div>
+                <figure>
+                    <img src="https://census.nl/nl/assets/templates/images/logo.png" alt="Logo of Census">
+                    <figcaption>The logo of Census</figcaption>
+                </figure>
+            </div>
+        </article>
+    </main>
+    <footer>
+        <p>&copy; 2019</p>
+    </footer>
+    <script id="__bs_script__">
+        //<![CDATA[
+        document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.24.4'><\/script>".replace(
+            "HOST", location.hostname));
+        //]]>
+    </script>
+</body>
+
+</html>
